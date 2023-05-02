@@ -14,30 +14,14 @@ public class Main {
         toyShop.addToyToShop(5, "Погремушка",1,25);
         toys.add(toyShop);
 
-//        toyShop = new ToyShop("All toys");
-//
-//        toyShop.addToyToShop(1, "Чебурашка",1,1);
-//        toyShop.addToyToShop(2, "Неваляшка",1,1);
-//        toyShop.addToyToShop(3, "Погремушка",1,1);
-//        toyShop.addToyToShop(4, "Чебурашка",1,1);
-//
-//        toys.add(toyShop);
 
         LinkedList<Toy>toyList1 = new LinkedList<>();
 
         toys.get(0).addToLotteryList("Чебурашка", toyList1);
         toys.get(0).addToLotteryList("Погремушка", toyList1);
         toys.get(0).addToLotteryList("Заяц", toyList1);
-        //toyList1.remove(1);
-        //List<Toy> toysInList
-        //System.out.println(toyList1);
-        // toyShop.showToyShopList(toys);
-        //toyShop.showToyLotteryList(toyList1);
-        //printMenu();
-        start(toyList1);
 
-        //
-        // new ToyShop("Lottery").addToLotteryList("Заяц", toyList1 );
+        start(toyList1);
 
     }
 
